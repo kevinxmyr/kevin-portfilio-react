@@ -163,8 +163,10 @@
   background-color: #fff;
   border: .5px solid grey;
   margin-top: 40px;
-  height: auto;
+  height: 53vh;
   border-radius: 8px;
+  display: flex;
+  justify-content:  space-between;
 }
 .skills-section{
   padding-top: 50px;
@@ -187,7 +189,7 @@
 .skills-container{
   background-color: #f0ead6;
   height: auto;
-  width: 50%;
+  /* width: 50%; */
   display: flex;
   justify-content: space-evenly;
   margin-top: 20px;
@@ -195,4 +197,34 @@
 }
 .skill-list{
   list-style: none;
+}
+.link-section{
+  width: 50%;
+  position: relative;
+  top: 50px;
+  
+}
+.mypicture{
+  width: 100%;
+  padding-right: 20px;
+}
+.button-links{
+  padding-right: 20px;
+  margin-top: 10px !important;
+  margin-bottom: 10px;
+}
+.github-btn{
+  background-color: #2B3137 !important;
+  color: whitesmoke !important;
+}
+.github-btn:hover{
+  background-color: #222426 !important;
+  color: white !important;
+}
+.link-section .button-links Button{
+  margin-top: 5px !important;
+}
+
+.projectcard-main{
+  margin-top: 35px;
 }

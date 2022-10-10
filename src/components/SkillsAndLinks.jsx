@@ -1,6 +1,7 @@
 import React from 'react';
 import { Button, Icon, Label } from 'semantic-ui-react'
 import 'semantic-ui-css/semantic.min.css'
+// import MyPicture from '../assets/'
 
 export default function SkillsAndLinks() {
   return (
@@ -35,10 +36,25 @@ export default function SkillsAndLinks() {
         </div>
        
         <div className='link-section'>
-        
-        </div>
-        
-        
+            <img className='mypicture' src='https://www.befunky.com/images/prismic/5ddfea42-7377-4bef-9ac4-f3bd407d52ab_landing-photo-to-cartoon-img5.jpeg?auto=avif,webp&format=jpg&width=863' />
+            <div className='button-links'>
+                <Button fluid className='github-btn'>
+                  <Icon name='github' /> GitHub
+                </Button>
+                <Button fluid color='linkedin'>
+                  <Icon name='linkedin' /> LinkedIn
+                </Button>
+                <Button fluid color='instagram'>
+                  <Icon name='instagram' /> Instagram
+                </Button>
+                <a href='https://youtube.com/kepuvlogs' target='_blank'>
+                <Button fluid color='youtube'>
+                  <Icon name='youtube' /> YouTube
+                </Button>
+                </a>
+                
+            </div>
+        </div>      
         
     </div>
   )
